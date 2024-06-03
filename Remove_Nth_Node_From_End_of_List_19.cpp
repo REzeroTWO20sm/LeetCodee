@@ -1,5 +1,7 @@
 #include <iostream>
 
+// g++ Remove_Nth_Node_From_End_of_List_19.cpp -o Remove_Nth_Node_From_End_of_List_19 --std=c++14 -I/usr/local/include
+
 struct ListNode {
     int val;
     ListNode* next;
@@ -13,7 +15,7 @@ ListNode* removeNthFromEnd(ListNode* head, int n) {
         return nullptr;
     }
 
-    ListNode* dummy = new ListNode(0, head);
+    ListNode* dummy = new ListNode(1, head);
     ListNode* slow = dummy;
     ListNode* fast = dummy;
 
@@ -39,9 +41,9 @@ ListNode* removeNthFromEnd(ListNode* head, int n) {
 int main() {
     ListNode* head = new ListNode(1);
     head->next = new ListNode(2);
-    //head->next->next = new ListNode(3);
-    //head->next->next->next = new ListNode(4);
-    //head->next->next->next->next = new ListNode(5);
+    head->next->next = new ListNode(3);
+    head->next->next->next = new ListNode(4);
+    head->next->next->next->next = new ListNode(5);
 
     std::cout << "Список: ";
     ListNode* current = head;
@@ -51,7 +53,7 @@ int main() {
     }
     std::cout << std::endl;
 
-    int n = 1;
+    int n = 2;
 
     head = removeNthFromEnd(head, n);
 

@@ -2,7 +2,7 @@
 #include <iostream>
 #include <vector>
 
-//g++ cpp.cpp -o cpp --std=c++14 -I/usr/local/include
+//g++ Longest_Common_Prefix_14.cpp -o Longest_Common_Prefix_14 --std=c++14 -I/usr/local/include
 
 using namespace std;
 
