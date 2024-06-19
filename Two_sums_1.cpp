@@ -1,6 +1,8 @@
 #include "vector"
 #include "iostream"
 
+// g++ Two_sums_1.cpp -o Two_sums_1 --std=c++14 -I/usr/local/include
+
 std::vector<int> twoSum(std::vector<int>& nums, int target){
     std::vector<int> mas{};
     for(int i=0;i<nums.size();i++){

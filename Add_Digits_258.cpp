@@ -1,5 +1,7 @@
 #include <iostream>
 
+// g++ Add_Digits_258.cpp -o Add_Digits_258 --std=c++14 -I/usr/local/include
+
 using namespace std;
 
 int sum_nums(int num){
