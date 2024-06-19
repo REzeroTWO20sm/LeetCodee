@@ -2,6 +2,8 @@
 #include <string>
 #include <limits> 
 
+// g++ Reverse_Integer_7.cpp -o Reverse_Integer_7 --std=c++14 -I/usr/local/include
+
 int reverseInteger(int x) {
     int result = 0;
 

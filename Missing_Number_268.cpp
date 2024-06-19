@@ -25,7 +25,7 @@ void display_vector(const vector<int>& vector){
         if(i<vector.size()-1){
             cout << ",";
         }
-    }cout << "]";
+    }std::cout << "]";
 }
 
 int search_missing_num(const vector<int>& vector){

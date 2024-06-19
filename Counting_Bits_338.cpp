@@ -1,6 +1,8 @@
 #include <iostream>
 #include <vector>
 
+// g++ Counting_Bits_338.cpp -o Counting_Bits_338 --std=c++14 -I/usr/local/include
+
 using namespace std;
 
 int count_bits(int number){

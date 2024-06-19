@@ -1,7 +1,7 @@
 #include <string>
 #include <iostream>
 
-// g++ cpp.cpp -o cpp --std=c++14 -I/usr/local/include
+// g++ Roman_to_Integer_13.cpp -o Roman_to_Integer_13 --std=c++14 -I/usr/local/include
 
 int CharToInt(char s_char) {
     int result = 0;

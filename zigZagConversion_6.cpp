@@ -4,7 +4,7 @@
 using namespace std;
 
 //g++ zigZagConversion.cpp -o zigZagConversion --std=c++14 -I/usr/local/include
-//https://leetcode.com/problems/zigzag-conversion/submissions/1260153630/
+
 string convert(string s, int nRows) {
     if (nRows<=1 || nRows>=s.size()) return s;
      

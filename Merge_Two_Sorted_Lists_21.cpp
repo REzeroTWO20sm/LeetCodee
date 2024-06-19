@@ -1,6 +1,8 @@
 #include <iostream>
 #include <vector>
 
+// g++ Merge_Two_Sorted_Lists_21.cpp -o Merge_Two_Sorted_Lists_21 --std=c++14 -I/usr/local/include
+
 struct ListNode {
     int val;
     ListNode* next;
